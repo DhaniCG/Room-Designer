@@ -178,6 +178,7 @@ header h2 {
 
 .styles-container figure {
     margin: 25px;
+    transition: .3s;
 }
 
 .styles-container figure:hover {
@@ -234,6 +235,10 @@ header h2 {
     margin-bottom: 30px;
 }
 
+.designer-list figure {
+    transition: .3s;
+}
+
 .designer-list figure:hover {
     filter: brightness(130%);
     transition: .3s;
@@ -276,7 +281,7 @@ footer .contact {
 }
 
 .contact p {
-    display: inline-block;
+    display: block;
     position: relative;
     color: #5a5a5a;
     font-family: "founders grotesk", Arial, Helvetica, sans-serif;
